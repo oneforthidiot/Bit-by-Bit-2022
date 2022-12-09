@@ -9,8 +9,6 @@
 }
 
 
-
-
 .clearfix::after {
     content: "";
     display: table;

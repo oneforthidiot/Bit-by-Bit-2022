@@ -31,7 +31,7 @@ body {
 .form .btn {
     margin: auto;
     padding: 10px 35px;
-    background-color: #f1a566;
+    background-color: #060606;
     color: #fff;
     border: none;
     font-size: 22px;
@@ -74,8 +74,8 @@ body {
     font-size: 25px;
     margin: 40vh auto;
     padding: 10px 55px;
-    background-color: #f1a566;
-    color: #fff;
+    background-color: #fbf6f1;
+    color: rgb(13, 13, 13);
     border: none;
     border-radius: 10px;
     box-shadow: 15px 15px 25px #a8a8a8;
