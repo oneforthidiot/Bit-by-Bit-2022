@@ -26,6 +26,7 @@ body {
     font-weight: 400;
 }
 
+
 .right { float: right; }
 .red { color: #FF5049 !important; }
 .red-focus:focus { border: 1px solid #FF5049 !important; }
@@ -74,11 +75,11 @@ body {
 
 .budget__income {
     margin-bottom: 10px;
-    background-color: #28B9B5;
+    background-color: #28b940;
 }
 
 .budget__expenses {
-    background-color: #FF5049;
+    background-color: #ef120a;
 }
 
 .budget__income--text,
@@ -202,7 +203,10 @@ h2 {
     margin-bottom: 15px;
 }
 
-.icome__title { color: #28B9B5; }
+.icome__title { 
+    font-weight: bold;
+    font-size: large;
+ }
 .expenses__title { color: #FF5049; }
 
 .item {
