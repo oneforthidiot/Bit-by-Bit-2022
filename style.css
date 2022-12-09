@@ -51,7 +51,7 @@ body {
 }
 
 .budget__title {
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
     margin-bottom: 10px;
     font-weight: 300;
@@ -83,8 +83,8 @@ body {
 .budget__income--text,
 .budget__expenses--text {
     float: left;
-    font-size: 13px;
-    color: #444;
+    font-size: 19px;
+    color: rgb(8, 8, 8);
     margin-top: 2px;
 }
 
@@ -92,13 +92,14 @@ body {
 .budget__expenses--value {
     letter-spacing: 1px;
     float: left;
+    font-size: 19px;
 }
 
 .budget__income--percentage,
 .budget__expenses--percentage {
     float: left;
     width: 34px;
-    font-size: 11px;
+    font-size: 19px;
     padding: 3px 0;
     margin-left: 10px;
 }
@@ -144,7 +145,7 @@ body {
     background-color: #fff;
     color: inherit;
     font-family: inherit;
-    font-size: 14px;
+    font-size: 17px;
     padding: 12px 15px;
     margin-right: 10px;
     border-radius: 5px;
@@ -155,7 +156,7 @@ body {
 .add__value { width: 100px;}
 
 .add__btn {
-    font-size: 35px;
+    font-size: 38px;
     background: none;
     border: none;
     color: #28B9B5;
@@ -203,9 +204,12 @@ h2 {
 
 .icome__title { 
     font-weight: bold;
-    font-size: large;
+    font-size: 18px;
  }
-.expenses__title { color: #FF5049; }
+.expenses__title { color: #FF5049; 
+    font-weight: bold;
+    font-size: 18px;
+}
 
 .item {
     padding: 13px;
