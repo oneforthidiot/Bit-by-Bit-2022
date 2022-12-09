@@ -4,9 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login System</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
     <script src="js/main.js"></script>
-    <script src="/mail.js"></script>
+    <!-- <script src="/mail.js"></script> -->
 </head>
 <body>
     
@@ -19,7 +20,7 @@
         </div>
         <div id="left-form" class="form fade-in-element">
             <h1>Login</h1>
-            <form id="form_id" method="post" name="myform">
+            <form id="form_id" method="post" name="myform" onsubmit="validate()">
                 <input type="text" name="user-name" id="user-name" class="input-box" placeholder="User Name">
                 <input type="password" name="user-pass" id="user-pass" class="input-box" placeholder="Password">
                 <input type="submit" name="login-btn" class="btn" value="Login" onclick="validate()">

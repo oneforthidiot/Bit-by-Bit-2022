@@ -19,6 +19,7 @@ var username = document.getElementById("user-name").value;
 var password = document.getElementById("user-pass").value;
 if ( username == "user" && password == "pass"){
 alert ("Login successfully");
+console.log("check");
 window.open = "success.html"; // Redirecting to other page.
 return false;
 }
