@@ -16,10 +16,11 @@
         </div>
         <div id="left-form" class="form fade-in-element">
             <h1>Login</h1>
-            <form action="login.php" method="post">
-                <input type="text" name="user-name" class="input-box" placeholder="User Name">
-                <input type="password" name="user-pass" class="input-box" placeholder="Password">
-                <input type="submit" name="login-btn" class="btn" value="Login">
+            <form method="post">
+                <input type="text" name="user-name" id="user-name" class="input-box" placeholder="User Name">
+                <input type="password" name="user-pass" id="user-pass" class="input-box" placeholder="Password">
+                <input type="submit" name="login-btn" class="btn" value="Login" onclick="validate()">
+                <!-- <input type="submit" value="login-btn" class="btn" value="Login" onclick="validate()"/> -->
             </form>
         </div>
     </section>
@@ -33,7 +34,7 @@
         </div>
         <div id="right-form" class="form form-hide">
             <h1>Signup</h1>
-            <form action="signup.php" method="post">
+            <form method="post">
                 <input type="text" name="user-name" class="input-box" placeholder="User Name">
                 <input type="email" name="user-email" class="input-box" placeholder="Email">
                 <input type="password" name="user-pass" class="input-box" placeholder="Password">
@@ -41,7 +42,7 @@
             </form>
         </div>
     </section>
-
+    <!-- <script src="source/login.js"></script> -->
     <script src="js/main.js"></script>
 
 </body>

@@ -13,3 +13,24 @@ function switchSignup() {
     right_cover.classList.add("cover-hide");
     right_form.classList.remove("form-hide");
 }
+var attempt = 3; 
+function validate(){
+var username = document.getElementById("user-name").value;
+var password = document.getElementById("user-pass").value;
+if ( username == "user" && password == "pass"){
+alert ("Login successfully");
+window.open = "success.html"; // Redirecting to other page.
+return false;
+}
+else{
+attempt --;
+alert("You have left "+attempt+" attempt;");
+// Disabling fields after 3 attempts.
+if( attempt == 0){
+document.getElementById("username").disabled = true;
+document.getElementById("password").disabled = true;
+document.getElementById("submit").disabled = true;
+return false;
+}
+}
+}
